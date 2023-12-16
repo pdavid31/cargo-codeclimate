@@ -1,0 +1,13 @@
+[package]
+name = "cargo-codeclimate"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.75"
+cargo_metadata = "0.18.1"
+serde = "1.0.193"
+serde_json = "1.0.108"
+sha = "1.0.3"
